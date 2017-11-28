@@ -1,24 +1,60 @@
-#一个初学前端使用的express服务器
-## 用途
-做个简单脚手架吧，实验室有想用的可以试试
-## 使用说明
-### 环境部署
-* node v6.9.1
-### 初始化
+Vue + Express boilerplate for development
+=========================================
 
-1. 下载
-2. 在文件夹下运行命令行`npm install` 
-3. 执行`node app.js`
-4. 在浏览器中打开`http://localhost:3001/`
+## Keywords
 
-### 目录说明
-静态文件部署在src文件夹內，调用使用类似于
-
-`<script type="text/javascript" src = './js/index.js'>`
-
-的方式使用。
+- Vue
+- Express
+- Nodemon
+- Webpack
+- Npm
 
 
+## Structure
 
-##附言
-如果想处理请求数据自己看下`express`的api。
+```
+.
+├── LICENSE
+├── README.md
+├── index.js
+├── nodemon.json
+├── package.json
+├── src
+│   ├── client
+│   │   ├── App.vue
+│   │   ├── components
+│   │   │   └── Hello.vue
+│   │   └── index.js
+│   └── server
+│       ├── index.js
+│       ├── public
+│       │   └── favicon.ico
+│       ├── router.js
+│       └── views
+│           ├── error.jade
+│           └── index.jade
+└── webpack.config.js
+```
+
+## Usage
+
+1. Install dependencies
+
+   `npm install`
+
+2. Run the application
+
+   `npm run dev`
+
+## References
+
+Some ideas are stolen from them, really appreciated.
+
+- [Eslint guide](http://eslint.org/docs/user-guide/getting-started)
+- [Express generator](http://expressjs.com/en/starter/generator.html)
+- [Vue template](https://github.com/vuejs-templates/webpack)
+- [Nodemon doc](https://github.com/remy/nodemon#nodemon)
+- [Babel register](http://www.ruanyifeng.com/blog/2016/01/babel.html)
+- [webpack-dev-middleware-boilerplate](https://github.com/madole/webpack-dev-middleware-boilerplate/tree/master/src)
+- [how-can-i-use-webpack-with-express](http://stackoverflow.com/questions/31102035/how-can-i-use-webpack-with-express)
+- [The-ultimate-webpack-setup](http://www.christianalfoni.com/articles/2015_04_19_The-ultimate-webpack-setup)
