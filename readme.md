@@ -1,6 +1,3 @@
-Vue + Express boilerplate for development
-=========================================
-
 ## Keywords
 
 - Vue
@@ -36,19 +33,22 @@ Vue + Express boilerplate for development
 └── webpack.config.js
 ```
 
-## Usage
+## 使用
 
-1. Install dependencies
+1. 环境需求
 
+   node v6.9+
+
+2. 部署
+   在根目录，src/client src/server 三个目录中执行
    `npm install`
 
-2. Run the application
+3. 运行
 
    `npm run dev`
 
 ## References
 
-Some ideas are stolen from them, really appreciated.
 
 - [Eslint guide](http://eslint.org/docs/user-guide/getting-started)
 - [Express generator](http://expressjs.com/en/starter/generator.html)
